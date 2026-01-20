@@ -1,0 +1,3 @@
+@reboot ~/.dropbox-dist/dropboxd
+* * * * * /home/ubuntu/scripts/dbmonitor_watchdog.sh
+0 0 * * * /home/ubuntu/dbox-archiver.sh >> /home/ubuntu/dbox-archiver.log 2>&1
